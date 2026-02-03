@@ -4,8 +4,8 @@ import os
 import asyncio
 import loguru
 
-CHAT_ID = "@okak_group"
-bot = Bot("8534936381:AAE26tUXl8vfsZiftgBTBKwGDGbRhtrL-9Y")
+CHAT_ID = "@GROUP"
+bot = Bot()
 dp = Dispatcher()
 
 @dp.message(Command("send"))
